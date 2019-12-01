@@ -10,11 +10,12 @@
         <!--Person list-->
         <scene sceneID="RnD-ic-Vfi">
             <objects>
-                <tableViewController id="ZvG-JI-jRn" customClass="ListOfPersonViewController" customModule="HomeWork6" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ZvG-JI-jRn" customClass="ListOfPersonViewController" customModule="HomeWork6_1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oPY-KS-ZKM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.89866381650000005" green="1" blue="0.8495446982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.89866381653289817" green="1" blue="0.84954469823054757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="person" id="ind-6M-oCu">
                                 <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
@@ -22,10 +23,9 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ind-6M-oCu" id="dWq-Kl-dRc">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.89866381650000005" green="1" blue="0.8495446982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="v93-2k-1nR" kind="show" id="SWu-oX-EOP"/>
-                                </connections>
+                                <color key="backgroundColor" red="0.89866381650000005" green="1" blue="0.8495446982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -34,6 +34,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Person list" id="z65-ef-91Y"/>
+                    <connections>
+                        <segue destination="v93-2k-1nR" kind="show" identifier="showPerson" id="XWt-6u-1Bh"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aj1-vK-D0M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,7 +45,7 @@
         <!--Person-->
         <scene sceneID="diP-I2-83m">
             <objects>
-                <viewController id="v93-2k-1nR" customClass="PersonViewController" customModule="HomeWork6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="v93-2k-1nR" customClass="PersonViewController" customModule="HomeWork6_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yET-3t-3jM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +53,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Степан Прохоров" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHj-K7-b73">
                                 <rect key="frame" x="51.5" y="94" width="272.5" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.056306631954356035" green="0.55216227871945722" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-gc-vsW">
@@ -61,14 +64,14 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNJ-1U-qjU">
                                                 <rect key="frame" x="0.0" y="0.0" width="79" height="31.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="25"/>
+                                                <color key="textColor" red="0.056306631949999998" green="0.55216227870000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-ZY-Br1">
                                                 <rect key="frame" x="0.0" y="56.5" width="79" height="31.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="25"/>
+                                                <color key="textColor" red="0.056306631949999998" green="0.55216227870000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -79,13 +82,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Прохор" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI7-gN-wlY">
                                                 <rect key="frame" x="0.0" y="0.0" width="89.5" height="31.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.056306631949999998" green="0.55216227870000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Слава" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXc-id-9L4">
                                                 <rect key="frame" x="0.0" y="56.5" width="89.5" height="31.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.056306631949999998" green="0.55216227870000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -93,7 +96,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.9449440865373907" green="1" blue="0.86490806299607392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ck7-gc-vsW" firstAttribute="leading" secondItem="ngM-YO-Uj4" secondAttribute="leading" constant="16" id="017-eQ-frS"/>
                             <constraint firstItem="BHj-K7-b73" firstAttribute="top" secondItem="ngM-YO-Uj4" secondAttribute="top" constant="50" id="WEV-j9-vch"/>

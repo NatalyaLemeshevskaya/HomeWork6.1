@@ -16,6 +16,8 @@
 		607E04FC2393B6F80032E382 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E04FB2393B6F80032E382 /* PersonViewController.swift */; };
 		607E05042393B9D10032E382 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E05032393B9D10032E382 /* Person.swift */; };
 		607E05062393BAE60032E382 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 607E05052393BAE60032E382 /* Default-568h@2x.png */; };
+		60F2F75C239434D500BE8679 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F2F75B239434D500BE8679 /* CustomTableViewCell.swift */; };
+		60F2F75F239440B000BE8679 /* CustomTablrViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F2F75E239440B000BE8679 /* CustomTablrViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		607E04FB2393B6F80032E382 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		607E05032393B9D10032E382 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		607E05052393BAE60032E382 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		60F2F75B239434D500BE8679 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		60F2F75E239440B000BE8679 /* CustomTablrViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTablrViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				607E05002393B9250032E382 /* Supporting Files */,
 				607E04FE2393B71A0032E382 /* ViewControllers */,
 				607E04FD2393B7040032E382 /* Models */,
+				60F2F75B239434D500BE8679 /* CustomTableViewCell.swift */,
+				60F2F75E239440B000BE8679 /* CustomTablrViewCell.xib */,
 			);
 			path = HomeWork6.1;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607E04F22393B5310032E382 /* LaunchScreen.storyboard in Resources */,
+				60F2F75F239440B000BE8679 /* CustomTablrViewCell.xib in Resources */,
 				607E05062393BAE60032E382 /* Default-568h@2x.png in Resources */,
 				607E04EF2393B5310032E382 /* Assets.xcassets in Resources */,
 				607E04ED2393B52E0032E382 /* Main.storyboard in Resources */,
@@ -188,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F2F75C239434D500BE8679 /* CustomTableViewCell.swift in Sources */,
 				607E05042393B9D10032E382 /* Person.swift in Sources */,
 				607E04FA2393B64B0032E382 /* ListOfPersonViewController.swift in Sources */,
 				607E04E62393B52E0032E382 /* AppDelegate.swift in Sources */,
@@ -338,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9YQU4FC7R;
-				INFOPLIST_FILE = "HomeWork6/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "HomeWork6.1/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9YQU4FC7R;
-				INFOPLIST_FILE = "HomeWork6/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "HomeWork6.1/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
