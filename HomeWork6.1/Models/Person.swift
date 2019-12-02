@@ -39,7 +39,7 @@ struct Person {
 }
 
 extension Person {
-    private static func listOfPersons() -> [Person] {
+     static func listOfPersons() -> [Person] {
         var personList = [Person]()
 
         for _ in 0..<names.count {

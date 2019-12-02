@@ -67,13 +67,12 @@
 		607E04E42393B52E0032E382 /* HomeWork6.1 */ = {
 			isa = PBXGroup;
 			children = (
+				60F2F7602394E43600BE8679 /* CustomViews */,
 				607E05022393B9500032E382 /* Resources */,
 				607E05012393B9400032E382 /* Storyboards */,
 				607E05002393B9250032E382 /* Supporting Files */,
 				607E04FE2393B71A0032E382 /* ViewControllers */,
 				607E04FD2393B7040032E382 /* Models */,
-				60F2F75B239434D500BE8679 /* CustomTableViewCell.swift */,
-				60F2F75E239440B000BE8679 /* CustomTablrViewCell.xib */,
 			);
 			path = HomeWork6.1;
 			sourceTree = "<group>";
@@ -120,6 +119,15 @@
 				607E04EE2393B5310032E382 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		60F2F7602394E43600BE8679 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				60F2F75B239434D500BE8679 /* CustomTableViewCell.swift */,
+				60F2F75E239440B000BE8679 /* CustomTablrViewCell.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
